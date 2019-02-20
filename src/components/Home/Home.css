@@ -1,0 +1,15 @@
+.Home-page {
+    text-align: center;
+    border: 1px dashed black;
+    height: 90vh;
+}
+
+.Home-content {
+    position: relative;
+    top: 20%;
+    font-size: 100%;
+}
+
+h1 {
+
+}

@@ -1,0 +1,19 @@
+.Toolbar {
+    border: 2px solid black;
+    position: fixed;
+    width: calc(100% - 43px);
+    background-color: white;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+li {
+
+}
