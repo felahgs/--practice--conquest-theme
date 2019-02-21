@@ -6,9 +6,10 @@ import './Toolbar.css';
             <div>
                 <nav className="Toolbar">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li> <a href="#home">Home</a></li>
+                        <li><a href="#section1">About</a></li>
+                        <li><a href="#section2">Services</a></li>
+                        <li><a href="#section3">Contact</a></li>
                     </ul>
                 </nav>
             </div>

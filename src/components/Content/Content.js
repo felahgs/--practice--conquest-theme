@@ -4,6 +4,7 @@ import FeatureArea from './FeatureArea/FeatureArea';
 import BlogArea from './BlogArea/BlogArea';
 import ServicesArea from './ServicesArea/ServicesArea';
 import TestimonialArea from './TestimonialArea/TestimonialArea';
+import ContactArea from './ContactArea/ContactArea';
 
 import './Content.css';
 
@@ -24,13 +25,9 @@ const content = () => {
 
             <div id='section3'>
                 <h1>Section 3</h1>
+                <ContactArea/>
             </div>
-
-            <div id='section4'>
-                <h1>Section 4</h1>
-            </div>
-            
-            <Posts/>
+            {/* <Posts/> */}
         </div>
     );
 }

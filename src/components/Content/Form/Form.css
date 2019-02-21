@@ -1,0 +1,25 @@
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.form-row > .form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    .form-left > * {
+        margin-bottom: 15px;
+    }
+
+.form-row > .form-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+    .form-right > * {
+        margin-bottom: 15px;
+    }

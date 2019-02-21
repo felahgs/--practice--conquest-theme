@@ -1,12 +1,15 @@
 .Toolbar {
     border: 2px solid black;
     position: fixed;
-    width: calc(100% - 43px);
-    background-color: white;
+    width: calc(100% - 44px);
+    background-color: #fff;
     z-index: 100;
+    color: #333333;
+    font-size: 15px;
 }
 
-ul {
+
+.Toolbar > ul {
     list-style-type: none;
     display:flex;
     flex-wrap: nowrap;
@@ -14,6 +17,18 @@ ul {
     padding-left: 0;
 }
 
-li {
+.Toolbar > ul > li > a  {
+    border: 1px solid black;
+    display: inherit;
+    padding: 10px 20px;
+    text-decoration: none;
+}
 
+.Toolbar > ul > li > a:hover  {
+    background-color: #f2f2f2;
+}
+
+.Toolbar > ul > li > a:active  {
+    background-color: #f2f2f2;
+    color: #333333;
 }
