@@ -1,5 +1,5 @@
 import React from 'react';
-import Posts from '../../containers/Posts/Posts';
+// import Posts from '../../containers/Posts/Posts';
 import FeatureArea from './FeatureArea/FeatureArea';
 import BlogArea from './BlogArea/BlogArea';
 import ServicesArea from './ServicesArea/ServicesArea';

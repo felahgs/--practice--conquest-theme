@@ -6,6 +6,7 @@
     z-index: 100;
     color: #333333;
     font-size: 15px;
+    height: 112px;
 }
 
 
@@ -17,18 +18,19 @@
     padding-left: 0;
 }
 
-.Toolbar > ul > li > a  {
+.Toolbar > ul > li > p  {
     border: 1px solid black;
     display: inherit;
     padding: 10px 20px;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.Toolbar > ul > li > a:hover  {
+.Toolbar > ul > li > p:hover  {
     background-color: #f2f2f2;
 }
 
-.Toolbar > ul > li > a:active  {
+.Toolbar > ul > li > p:active  {
     background-color: #f2f2f2;
     color: #333333;
 }
