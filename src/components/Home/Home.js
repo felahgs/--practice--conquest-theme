@@ -1,12 +1,16 @@
 import React from 'react';
+import Background from '../../assets/images/background-blur.jpg';
+
 
 import './Home.css';
 
 const home = () => {
     return (
-        <div id="home" className="Home-page">
-            <div className="Home-content">
-                <h1>Welcome!!</h1>
+        <div id="home" className="Home-page" style ={ { backgroundImage: "url(" + Background + ")" }} >
+            <div className="Home-content"  >
+                <div>
+                    <h1>Welcome!!</h1>
+                </div>
             </div>
         </div>
     );

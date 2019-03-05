@@ -1,7 +1,13 @@
 .Home-page {
     text-align: center;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    margin: 0px;
 }
 
 .Home-content {

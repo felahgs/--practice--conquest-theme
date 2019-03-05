@@ -2,9 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+ h1 {
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
+  position: relative;
+  /* overflow: hidden; */
+  /* top: -21px; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
