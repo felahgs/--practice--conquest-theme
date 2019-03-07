@@ -12,7 +12,7 @@ const content = () => {
     return (
         <div className="page-content">
             <div id='section1'>
-                <h1>Section 1</h1>
+                {/* <h1>Section 1</h1> */}
                 <FeatureArea/>
                 <BlogArea/>
             </div>

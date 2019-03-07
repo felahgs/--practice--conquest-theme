@@ -9,4 +9,17 @@
 
 p { 
     margin: 20px;
+    font-size: 14px;
+}
+
+.blue-text {
+    color: red;
+}
+
+.red-text {
+    color: #1686C1;
+}
+
+.green-text {
+    color: #178A27;
 }

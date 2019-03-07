@@ -1,11 +1,19 @@
 import React from 'react';
 
+import Image from '../../../../assets/images/feature-1.jpg';
 import './FeatureContent.css';
 
-const featureContent = () => {
+const featureContent = (props) => {
+    // const imgURL = require('../../../../assets/' + props.imgURL)
+    console.log('Image:',Image)
+    console.log('props.imgURL', props.imgURL)
+    // console.log('imgURL:',imgURL)
     return (
         <div className="feature-content">
-            <p>Feature Content</p>
+            {/* Using 'grave accent' for string with expressions inside: ´Some text ${expresion}´ */}
+            <img src={require(`../../../../assets/images/${props.imgURL}`)} alt={'as'} ></img>
+            <h2 className={props.titleColor}>{props.title}</h2>
+            <p >{props.content}</p>
         </div>
     )
 }
