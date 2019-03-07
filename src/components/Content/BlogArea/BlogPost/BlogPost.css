@@ -1,8 +1,10 @@
 .blog-post {
-    border: 1px dashed purple;
-    height: 200px;
+    /* border: 1px dashed purple; */
+    /* height: 200px; */
     margin: 10px;
-    margin-bottom: 40px;
-    width: 55vh;
+    padding-bottom: 15px;
+    background-color: #F2F2F2;
+    /* margin-bottom: 40px; */
+    /* max-width: 55vh; */
 }
 

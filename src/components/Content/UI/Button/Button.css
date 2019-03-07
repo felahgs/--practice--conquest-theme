@@ -1,7 +1,7 @@
 .button {
-    background-color: transparent;
+    background-color: #fff;
     border: none;
-    color: white;
+    color: rgb(161, 161, 161);
     outline: none;
     cursor: pointer;
     font: inherit;
@@ -10,7 +10,13 @@
     font-weight: bold;
     border-radius: 5px;
     padding: 5px;
-
+    border: 1px solid #ccc;
+    transition: background-color 0.5s ease;
+    font-family: Arial;
+    
+}
+.button:hover {
+    background-color: rgb(235, 235, 235);
 }
 
 .button:disabled {
@@ -18,14 +24,30 @@
     cursor:not-allowed;
 }
 
+.button.none {
+    display: none;
+}
+
 .button.green {
+    color: #fff;
     background-color: #5C9210;
+}
+.button.green:hover {
+    background-color:#94C94A
 }
 
 .button.red {
+    color: #fff;
     background-color: #852406;
+}
+.button.red:hover {
+    background-color: #C6603F;
 }
 
 .button.blue {
+    color: #fff;
     background-color:#1686C1
+}
+.button.blue:hover {
+    background-color: #60ACD5;
 }

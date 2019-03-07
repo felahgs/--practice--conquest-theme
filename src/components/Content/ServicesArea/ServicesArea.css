@@ -11,5 +11,17 @@
 
 .service-message {
     border: 1px dashed purple;
-    margin-bottom: 40px;
+    background-size: cover;
+    /* margin-bottom: 40px; */
+}
+
+.services-area  h2 {
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 2px 2px #aaa;
+    margin-bottom: 20px;
+}
+
+.services-area p {
+    color: #fff;
 }

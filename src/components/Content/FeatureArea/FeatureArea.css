@@ -24,5 +24,7 @@
     .feature-content {
         width: auto;
         margin: 20px;
+        margin-right: 120px;
+        margin-left: 120px;
     }
 }
