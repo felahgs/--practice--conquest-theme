@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../UI/Button/Button';
 
 import Image from '../../../../assets/images/feature-1.jpg';
 import './FeatureContent.css';
@@ -12,8 +13,9 @@ const featureContent = (props) => {
         <div className="feature-content">
             {/* Using 'grave accent' for string with expressions inside: ´Some text ${expresion}´ */}
             <img src={require(`../../../../assets/images/${props.imgURL}`)} alt={'as'} ></img>
-            <h2 className={props.titleColor}>{props.title}</h2>
+            <h2 className={props.color}>{props.title}</h2>
             <p >{props.content}</p>
+            <Button btnColor={props.color}> {props.btnText} </Button>
         </div>
     )
 }

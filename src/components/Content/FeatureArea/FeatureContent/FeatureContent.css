@@ -3,7 +3,7 @@
     height: auto;
     width: 250px;
     margin: 5px;
-    /* margin-bottom: 40px; */
+    padding-bottom: 15px;
     overflow: hidden;
     background-color: #F2F2F2;
 }
