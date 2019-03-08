@@ -1,5 +1,5 @@
 .contact-area {
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
     /* text-align: center; */
     /* padding:40px; */
     margin-bottom: 20px;
@@ -7,6 +7,15 @@
 
 .contact-message {
     text-align: center;
+}
+
+.contact-message p {
+    background: rgba(242,242,242,0.4) none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
 }
 
 .contact-area > .container {

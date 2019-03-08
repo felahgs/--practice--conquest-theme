@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../../assets/images/services.jpg'
+import Image from '../../../assets/images/home-image.jpg'
 
 import './ServicesArea.css';
 

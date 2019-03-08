@@ -24,7 +24,7 @@ const content = () => {
             </div>
 
             <div id='section3'>
-                <h1>Section 3</h1>
+                {/* <h1>Section 3</h1> */}
                 <ContactArea/>
             </div>
             {/* <Posts/> */}

@@ -1,7 +1,7 @@
 .Toolbar {
     border: 2px solid black;
     position: fixed;
-    width: calc(100% - 44px);
+    width: calc(100% - 4px); /* The 4 pixels from the border where making the div overflows */
     background-color: #fff;
     z-index: 100;
     color: #333333;

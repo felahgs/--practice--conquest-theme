@@ -3,8 +3,8 @@
 }
 
 .App > div {
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
 }
 
 img {
@@ -17,13 +17,17 @@ p {
 }
 
 h2.blue {
-    color: red;
+    color: #1686C1;
 }
 
 h2.red {
-    color: #1686C1;
+    color: #666;
 }
 
 h2.green {
     color: #178A27;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif!important;
 }

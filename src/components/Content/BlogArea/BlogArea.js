@@ -1,5 +1,6 @@
 import React from 'react';
-import BlogPost from './BlogPost/BlogPost';
+// import BlogPost from './BlogPost/BlogPost';
+import ContentDisplay from '../ContentDisplay/ContentDisplay';
 
 import './BlogArea.css';
 
@@ -8,8 +9,9 @@ const blogArea = (props) => {
         <div className="blog-area">
             <p>Blog Area</p>
             <div className="container">
-                <BlogPost 
-                    img='blog1.jpg' 
+                <ContentDisplay 
+                    class="blog-post"
+                    img='blog/blog1.jpg' 
                     title='Two Column Left Side' 
                     content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget 
                         eros maximus, ut cursus sem euismod. Donec iaculis tristique odio at 
@@ -22,8 +24,9 @@ const blogArea = (props) => {
                         metus.'
                         btnType='none'/>
 
-                <BlogPost 
-                    img='blog2.jpg' 
+                <ContentDisplay 
+                    class="blog-post"
+                    img='blog/blog2.jpg' 
                     title='Two Column Right Side' 
                     content='Lorem
                         ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor 
