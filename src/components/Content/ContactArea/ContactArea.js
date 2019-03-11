@@ -6,7 +6,8 @@ import './ContactArea.css';
 
 const contactArea = () => {
     return (
-        <div className="contact-area" style={{backgroundImage: 'url(' + Image + ')'}}>
+        // <div className="contact-area" style={{backgroundImage: 'url(' + Image + ')'}}>
+        <div className="contact-area" >
             {/* <h1>Contact Area</h1> */}
             <div className="container">
                 <div className="contact-message" >

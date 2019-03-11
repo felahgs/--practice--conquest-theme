@@ -1,4 +1,19 @@
 .footer {
-    border: 2px black solid;
+    /* border: 2px black solid; */
     text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.footer p{
+    color: #999;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.footer h2 {
+    color: #666;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-top: 35px;
 }

@@ -5,8 +5,8 @@ import './Footer.css';
 const footer = () => {
     return (
         <footer id="page-footer" className="footer">
-            <h1> Page end!</h1>
-            <p>
+            <h2> Page end!</h2>
+            <p className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             </p>
             <hr/>

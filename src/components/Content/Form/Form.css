@@ -30,11 +30,11 @@
 .form-control {
     width: 100%;
     border: none;
-    background: rgba(242,242,242,0.4)
+    background: rgb(255, 255, 255)
 }
 
 .contact-message h2 {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.431);
     text-transform: capitalize;
     margin-bottom: 30px;
     text-shadow: 2px 2px #333;
