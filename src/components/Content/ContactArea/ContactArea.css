@@ -4,6 +4,10 @@
     /* padding:40px; */
     margin-bottom: 20px;
     background-color: #f2f2f2;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: cover;
 
 }
 
@@ -12,7 +16,7 @@
 }
 
 .contact-message p {
-    background: rgba(242,242,242,0.4) none repeat scroll 0 0;
+    background: rgba(216, 211, 211, 0.37) none repeat scroll 0 0;
     border-radius: 5px;
     color: #000;
     font-size: 16px;
